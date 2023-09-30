@@ -1,0 +1,60 @@
+.wallpaper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/images/home-page-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home-words {
+  width: 55%;
+  padding: 2em;
+  position: absolute;
+  bottom: 5em;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home-words h1 {
+  margin-bottom: 0;
+  color: aliceblue;
+  font-size: 5em;
+}
+
+.home-information {
+  margin-top: 2em;
+  padding: 4em;
+}
+
+.grid-c-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 4em;
+}
+
+.services .our-services {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-style: italic;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.about-dorem {
+  margin-top: 4em;
+  text-align: justify;
+}
+.about-dorem h1 {
+  margin-bottom: 1em;
+}
+.grid-c-1a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 2em;
+}
+
+.imgage img {
+  width: 350px;
+  object-fit: cover;
+  object-position: center;
+}

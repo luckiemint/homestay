@@ -1,0 +1,33 @@
+.service-card {
+  width: 60vw;
+  height: 250px;
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 2em;
+  padding: 2em;
+  border-bottom: 5px solid rgb(225, 221, 221);
+  border-radius: 5px;
+}
+/* .service-card,
+.room-image,
+.room-details,
+.room-price {
+  border: 1px solid red;
+} */
+.room-image img {
+  width: 260px;
+  height: auto;
+  display: block; /* Remove any extra space below the image */
+}
+.room-image {
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+.room-price {
+  display: flex;
+  align-items: flex-end;
+}
